@@ -23,7 +23,7 @@ describe('basicOp', function () {
 		expect(result).toBe(0)
 	});
 	test('should return 0 when basicOp is clean', function () {
-		const result = basicOp('дапрлвоапрлваопрлвп', 45, 45)
+		const result = basicOp('dfsdfsdfsdf', 45, 45)
 		expect(result).toBe(0)
 	});
 });

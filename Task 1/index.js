@@ -14,6 +14,5 @@ export function basicOp(operation, a, b) {
 			break;
 		default:
 			return 0
-			break;
 	}
 }
