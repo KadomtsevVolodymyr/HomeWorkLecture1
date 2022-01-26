@@ -22,4 +22,8 @@ describe('basicOp', function () {
 		const result = basicOp('something else', 45, 45)
 		expect(result).toBe(0)
 	});
+	test('should return 0 when basicOp is clean', function () {
+		const result = basicOp('дапрлвоапрлваопрлвп', 45, 45)
+		expect(result).toBe(0)
+	});
 });

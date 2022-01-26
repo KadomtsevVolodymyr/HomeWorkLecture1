@@ -12,7 +12,7 @@ export function basicOp(operation, a, b) {
 		case "/":
 			return (a / b);
 			break;
-		case "something else":
+		default:
 			return 0
 			break;
 	}
