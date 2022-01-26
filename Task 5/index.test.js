@@ -14,7 +14,7 @@ describe('getTime', function () {
 		expect(result).toBe("09:59")
 	});	test('should return empty string If correct time not found', function () {
 		const result = getTime("Breakfast at 09:94, Dinner at 25:00")
-		expect(result).toBe(" ")
+		expect(result).toBe("")
 	});
 
 });
